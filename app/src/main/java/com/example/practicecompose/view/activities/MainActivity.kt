@@ -69,7 +69,8 @@ class MainActivity : ComponentActivity() {
                             Row{
                                 Greeting(
                                     name = name,
-                                    modifier = Modifier.padding(innerPadding)
+                                    modifier = Modifier
+                                        .padding(innerPadding)
                                         .fillMaxWidth()
 
                                 )
@@ -93,6 +94,7 @@ class MainActivity : ComponentActivity() {
 
 
 }
+
 
 
 @Composable

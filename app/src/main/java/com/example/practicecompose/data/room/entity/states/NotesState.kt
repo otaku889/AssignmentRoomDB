@@ -1,8 +1,6 @@
 package com.example.practicecompose.data.room.entity.states
 
-import com.example.practicecompose.data.room.entity.NotesEntity
 import com.example.practicecompose.event.Sorter
-import java.util.Date
 
 data class NotesState (
     val noteContent : List<Any> = emptyList(),
